@@ -17,10 +17,11 @@ setup(
     version=click_extensions.__version__,
     author='Naphat Sanguansin',
     author_email='naphat.krit@gmail.com',
-    description='TigerHost Command-Line Client',
+    description='A set of utilities for Click',
     packages=find_packages(),
     install_requires=install_requires,
     extras_require={'tests': tests_require},
     tests_require=tests_require,
     url='https://github.com/naphatkrit/click-extensions',
+    keywords=['click', 'extensions'],
 )
